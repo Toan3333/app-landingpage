@@ -1,3 +1,7 @@
+.app {
+  max-width: 100%;
+}
+
 .header {
   padding: 106px 0 64px 0;
 }

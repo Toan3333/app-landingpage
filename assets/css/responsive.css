@@ -134,6 +134,7 @@
 
   .app-feature-right {
     width: 100%;
+    margin-left: 0;
   }
 
   .app-feature-body-text {
@@ -300,6 +301,15 @@
     font-size: 2.5rem;
   }
 
+  .img-cicrle {
+    height: 880px;
+    width: 100%;
+  }
+
+  .img-cicrle img {
+    width: 100%;
+  }
+
   .hero-best {
     font-size: 2.8rem;
     line-height: 4rem;
@@ -375,6 +385,7 @@
 
   .app-feature-body.smart-feature-body {
     margin-left: 0;
+    padding-right: 0;
   }
 
   .designer {
@@ -422,6 +433,7 @@
   .app-feature-box-flex.smart-none-flex.ultimate-box {
     width: 100%;
     margin-right: 0;
+    padding-left: 0;
   }
 
   .app-feature-box.smart-box.ultimate-col {
@@ -558,5 +570,21 @@
 
   .footer-social {
     font-size: 2.5rem;
+  }
+
+  .app-feature-phone-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .dowload-left {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .smart-object-img {
+    width: 100%;
+    top: 61px;
   }
 }
